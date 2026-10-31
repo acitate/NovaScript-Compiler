@@ -9,5 +9,4 @@ _CLASSES = {
 }
 
 def classify_character(char: str) -> str:
-    print(_CLASSES)
     return _CLASSES.get(char, "OTHER")
