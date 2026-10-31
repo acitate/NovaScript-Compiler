@@ -24,3 +24,5 @@ class Diagnostic:
 
     line: int
     column: int
+    offset: int = 0
+    length: int = 1
