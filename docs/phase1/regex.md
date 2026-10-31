@@ -9,3 +9,11 @@
 | KW_FUNC    | func                   | func    |
 | PAREN_L    | \(                     | (       |
 | PAREN_R    | \)                     | )       |
+
+Character classes:
+`LETTER`: includes ASCII letters and underscore.
+
+`DIGIT`: 0 to 9
+
+`Whitespace`: `[ \t\r\n]+`; line comment: `//[^\r\n]*`;
+block comment: `/\*([^*]|\*+[^*/])*\*+/`.
