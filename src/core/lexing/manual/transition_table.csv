@@ -1,0 +1,9 @@
+state,LETTER,DIGIT,PLUS,ASSIGN,LPAREN,RPAREN,token
+q0,q1,q3,q7,q6,q5,q4,
+q1,q2,q2,,,,,ID
+q2,q2,q2,,,,,ID
+q3,,q3,,,,,LIT_INT
+q4,,,,,,,PAREN_R
+q5,,,,,,,PAREN_L
+q6,,,,,,,OPR_ASSIGN
+q7,,,,,,,OPR_PLUS
