@@ -1,12 +1,12 @@
 state,LETTER,DIGIT,PLUS,ASSIGN,LPAREN,RPAREN,SPACE,NEWLINE,SLASH,OTHER,token
-q0,q1,q3,q7,q6,q5,q4,q8,q8,c0,,,
+q0,q1,q3,q7,q6,q5,q4,q8,q8,c0,,
 q1,q2,q2,,,,,,,,,ID
 q2,q2,q2,,,,,,,,,ID
-q3,,q3,,,,,,,,LIT_INT
+q3,,q3,,,,,,,,,LIT_INT
 q4,,,,,,,,,,,PAREN_R
 q5,,,,,,,,,,,PAREN_L
 q6,,,,,,,,,,,OPR_ASSIGN
 q7,,,,,,,,,,,OPR_PLUS
-q8,,,,,,,q8,q8,,,,SKIP_WHITESPACE
+q8,,,,,,,q8,q8,,,SKIP_WHITESPACE
 c0,,,,,,,,,c1,,
 c1,c1,c1,c1,c1,c1,c1,c1,,c1,c1,SKIP_COMMENT
